@@ -5,6 +5,11 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArduinoCore-VisualStudio", "ArduinoCore-VisualStudio.vcxproj", "{976EBBD0-4D8C-4337-815C-DF5FABA8D80A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleSketch", "SampleSketch\SampleSketch.vcxproj", "{0140A98A-2296-4126-8F34-76F87850D674}"
+	ProjectSection(ProjectDependencies) = postProject
+		{976EBBD0-4D8C-4337-815C-DF5FABA8D80A} = {976EBBD0-4D8C-4337-815C-DF5FABA8D80A}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +26,14 @@ Global
 		{976EBBD0-4D8C-4337-815C-DF5FABA8D80A}.Release|x64.Build.0 = Release|x64
 		{976EBBD0-4D8C-4337-815C-DF5FABA8D80A}.Release|x86.ActiveCfg = Release|Win32
 		{976EBBD0-4D8C-4337-815C-DF5FABA8D80A}.Release|x86.Build.0 = Release|Win32
+		{0140A98A-2296-4126-8F34-76F87850D674}.Debug|x64.ActiveCfg = Debug|x64
+		{0140A98A-2296-4126-8F34-76F87850D674}.Debug|x64.Build.0 = Debug|x64
+		{0140A98A-2296-4126-8F34-76F87850D674}.Debug|x86.ActiveCfg = Debug|Win32
+		{0140A98A-2296-4126-8F34-76F87850D674}.Debug|x86.Build.0 = Debug|Win32
+		{0140A98A-2296-4126-8F34-76F87850D674}.Release|x64.ActiveCfg = Release|x64
+		{0140A98A-2296-4126-8F34-76F87850D674}.Release|x64.Build.0 = Release|x64
+		{0140A98A-2296-4126-8F34-76F87850D674}.Release|x86.ActiveCfg = Release|Win32
+		{0140A98A-2296-4126-8F34-76F87850D674}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
